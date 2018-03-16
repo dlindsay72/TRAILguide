@@ -15,5 +15,9 @@ class AppInfoVC: UIViewController {
 
         
     }
-
+    
+    @IBAction func backToAppBtnPressed(_ sender: RoundedButton) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }

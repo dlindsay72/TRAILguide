@@ -15,6 +15,7 @@
 		7B28CD30205C35D700456F29 /* SpecificCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD2F205C35D700456F29 /* SpecificCategoryVC.swift */; };
 		7B28CD32205C360200456F29 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD31205C360200456F29 /* DetailVC.swift */; };
 		7B28CD34205C364200456F29 /* AppInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD33205C364200456F29 /* AppInfoVC.swift */; };
+		7B28CD36205C3AB200456F29 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD35205C3AB200456F29 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		7B28CD2F205C35D700456F29 /* SpecificCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificCategoryVC.swift; sourceTree = "<group>"; };
 		7B28CD31205C360200456F29 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		7B28CD33205C364200456F29 /* AppInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVC.swift; sourceTree = "<group>"; };
+		7B28CD35205C3AB200456F29 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				7B28CD1E205C239700456F29 /* Main.storyboard */,
 				7B28CD21205C239700456F29 /* Assets.xcassets */,
 				7B28CD23205C239700456F29 /* LaunchScreen.storyboard */,
+				7B28CD35205C3AB200456F29 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B28CD34205C364200456F29 /* AppInfoVC.swift in Sources */,
+				7B28CD36205C3AB200456F29 /* RoundedButton.swift in Sources */,
 				7B28CD1D205C239700456F29 /* AllCategoriesVC.swift in Sources */,
 				7B28CD32205C360200456F29 /* DetailVC.swift in Sources */,
 				7B28CD30205C35D700456F29 /* SpecificCategoryVC.swift in Sources */,
