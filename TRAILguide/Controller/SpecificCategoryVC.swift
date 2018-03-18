@@ -8,12 +8,18 @@
 
 import UIKit
 
-class SpecificCategoryVC: UIViewController {
+public var productCellIdentifier = "productCell"
 
+class SpecificCategoryVC: UIViewController {
+    
+    @IBOutlet weak var categoryLbl: UILabel!
+    @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var categoryCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
 

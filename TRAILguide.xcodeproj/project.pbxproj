@@ -16,6 +16,7 @@
 		7B28CD32205C360200456F29 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD31205C360200456F29 /* DetailVC.swift */; };
 		7B28CD34205C364200456F29 /* AppInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD33205C364200456F29 /* AppInfoVC.swift */; };
 		7B28CD36205C3AB200456F29 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD35205C3AB200456F29 /* RoundedButton.swift */; };
+		7B2D7AA9205EDFC100AB515F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D7AA8205EDFC100AB515F /* ProductCell.swift */; };
 		7BA230EA205C4A0D00C5EA94 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA230E9205C4A0D00C5EA94 /* Category.swift */; };
 		7BA230EC205C4AB300C5EA94 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA230EB205C4AB300C5EA94 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		7B28CD31205C360200456F29 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		7B28CD33205C364200456F29 /* AppInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVC.swift; sourceTree = "<group>"; };
 		7B28CD35205C3AB200456F29 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		7B2D7AA8205EDFC100AB515F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		7BA230E9205C4A0D00C5EA94 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		7BA230EB205C4AB300C5EA94 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				7B28CD23205C239700456F29 /* LaunchScreen.storyboard */,
 				7B28CD35205C3AB200456F29 /* RoundedButton.swift */,
 				7BA230EB205C4AB300C5EA94 /* CategoryCell.swift */,
+				7B2D7AA8205EDFC100AB515F /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				7BA230EC205C4AB300C5EA94 /* CategoryCell.swift in Sources */,
 				7B28CD32205C360200456F29 /* DetailVC.swift in Sources */,
 				7B28CD30205C35D700456F29 /* SpecificCategoryVC.swift in Sources */,
+				7B2D7AA9205EDFC100AB515F /* ProductCell.swift in Sources */,
 				7B28CD1B205C239700456F29 /* AppDelegate.swift in Sources */,
 				7BA230EA205C4A0D00C5EA94 /* Category.swift in Sources */,
 			);

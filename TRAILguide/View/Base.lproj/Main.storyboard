@@ -206,8 +206,150 @@
             </objects>
             <point key="canvasLocation" x="28" y="42.728635682158924"/>
         </scene>
+        <!--Specific CategoryVC-->
+        <scene sceneID="6Po-zW-usk">
+            <objects>
+                <viewController id="QnO-EM-HfN" customClass="SpecificCategoryVC" customModule="TRAILguide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DBS-wR-lMH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Wa-Ib-YiE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gc7-Ka-CXB">
+                                        <rect key="frame" x="110" y="16" width="154.5" height="38.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRAIL" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DsZ-Hk-9gW">
+                                                <rect key="frame" x="0.0" y="0.0" width="79" height="38.5"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="guide" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pI-BD-WXQ">
+                                                <rect key="frame" x="79" y="0.0" width="75.5" height="38.5"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="3pI-BD-WXQ" firstAttribute="height" secondItem="DsZ-Hk-9gW" secondAttribute="height" id="f2w-9y-qdx"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ug4-qm-U50">
+                                        <rect key="frame" x="16" y="12" width="37" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="lfl-zB-OeE"/>
+                                            <constraint firstAttribute="width" constant="37" id="qKZ-fJ-PPJ"/>
+                                        </constraints>
+                                        <state key="normal" image="backBtn"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25879758596420288" green="0.25884014368057251" blue="0.25878828763961792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Gc7-Ka-CXB" firstAttribute="centerX" secondItem="8Wa-Ib-YiE" secondAttribute="centerX" id="4c9-tg-LFJ"/>
+                                    <constraint firstItem="Gc7-Ka-CXB" firstAttribute="centerY" secondItem="8Wa-Ib-YiE" secondAttribute="centerY" id="63B-Ht-mpw"/>
+                                    <constraint firstAttribute="bottom" secondItem="ug4-qm-U50" secondAttribute="bottom" constant="12" id="KAP-wZ-tpj"/>
+                                    <constraint firstAttribute="height" constant="70" id="U6q-yE-Aqe"/>
+                                    <constraint firstItem="ug4-qm-U50" firstAttribute="top" secondItem="8Wa-Ib-YiE" secondAttribute="top" constant="12" id="pi7-Nc-TF9"/>
+                                    <constraint firstItem="ug4-qm-U50" firstAttribute="leading" secondItem="8Wa-Ib-YiE" secondAttribute="leading" constant="16" id="sMb-XF-wjR"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campingBG" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-fd-12B">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bYh-p2-hfg">
+                                <rect key="frame" x="16" y="233" width="343" height="434"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gHf-Vm-9C0">
+                                    <size key="itemSize" width="160" height="160"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="productCell" id="mac-TO-k8N" customClass="ProductCell" customModule="TRAILguide" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campingStove" translatesAutoresizingMaskIntoConstraints="NO" id="gSl-yz-3en">
+                                                    <rect key="frame" x="10" y="10" width="140" height="140"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="gSl-yz-3en" firstAttribute="leading" secondItem="mac-TO-k8N" secondAttribute="leading" constant="10" id="Bx3-cI-TsJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="gSl-yz-3en" secondAttribute="bottom" constant="10" id="ZKO-Fx-3RC"/>
+                                            <constraint firstItem="gSl-yz-3en" firstAttribute="top" secondItem="mac-TO-k8N" secondAttribute="top" constant="10" id="aby-IO-bNo"/>
+                                            <constraint firstAttribute="trailing" secondItem="gSl-yz-3en" secondAttribute="trailing" constant="10" id="seD-Bq-eMY"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAMPING GEAR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sfg-aw-143">
+                                <rect key="frame" x="16" y="70" width="343" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="1mV-of-7M6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="47"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8Wa-Ib-YiE" firstAttribute="top" secondItem="DBS-wR-lMH" secondAttribute="top" id="0V0-q1-h0Q"/>
+                            <constraint firstItem="bYh-p2-hfg" firstAttribute="top" secondItem="Sfg-aw-143" secondAttribute="bottom" constant="32" id="41c-b5-GfT"/>
+                            <constraint firstItem="a0p-fd-12B" firstAttribute="top" secondItem="8Wa-Ib-YiE" secondAttribute="bottom" id="6oj-nm-7h5"/>
+                            <constraint firstItem="Sfg-aw-143" firstAttribute="top" secondItem="8Wa-Ib-YiE" secondAttribute="bottom" id="9Pb-Ef-eVb"/>
+                            <constraint firstItem="bYh-p2-hfg" firstAttribute="leading" secondItem="Zds-4R-TXx" secondAttribute="leading" constant="16" id="BO8-q3-xld"/>
+                            <constraint firstItem="a0p-fd-12B" firstAttribute="trailing" secondItem="Zds-4R-TXx" secondAttribute="trailing" id="D39-Ua-CM8"/>
+                            <constraint firstItem="Sfg-aw-143" firstAttribute="leading" secondItem="Zds-4R-TXx" secondAttribute="leading" constant="16" id="FoW-6S-IxV"/>
+                            <constraint firstItem="Zds-4R-TXx" firstAttribute="trailing" secondItem="bYh-p2-hfg" secondAttribute="trailing" constant="16" id="Y1g-V3-VB9"/>
+                            <constraint firstItem="8Wa-Ib-YiE" firstAttribute="leading" secondItem="Zds-4R-TXx" secondAttribute="leading" id="ZBh-1J-w5x"/>
+                            <constraint firstItem="8Wa-Ib-YiE" firstAttribute="trailing" secondItem="Zds-4R-TXx" secondAttribute="trailing" id="eXD-sJ-uX6"/>
+                            <constraint firstItem="Zds-4R-TXx" firstAttribute="trailing" secondItem="Sfg-aw-143" secondAttribute="trailing" constant="16" id="epf-yA-9Rm"/>
+                            <constraint firstItem="a0p-fd-12B" firstAttribute="bottom" secondItem="Zds-4R-TXx" secondAttribute="bottom" id="jc4-Lg-Bl4"/>
+                            <constraint firstItem="a0p-fd-12B" firstAttribute="leading" secondItem="Zds-4R-TXx" secondAttribute="leading" id="sef-Wh-icW"/>
+                            <constraint firstItem="bYh-p2-hfg" firstAttribute="bottom" secondItem="Zds-4R-TXx" secondAttribute="bottom" id="tBx-Uv-UHg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Zds-4R-TXx"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="a0p-fd-12B" id="xq7-2B-aol"/>
+                        <outlet property="categoryCollectionView" destination="bYh-p2-hfg" id="S96-aH-kja"/>
+                        <outlet property="categoryLbl" destination="Sfg-aw-143" id="q8r-VU-IEy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gw5-9R-YEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757.60000000000002" y="29.23538230884558"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="49a-yG-cq7">
+            <objects>
+                <viewController id="OSK-3h-F1C" customClass="DetailVC" customModule="TRAILguide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I6f-O9-q2P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="H9D-nr-cX7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HC6-gz-VAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="35"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="backBtn" width="14" height="23"/>
+        <image name="campingBG" width="1346" height="897"/>
+        <image name="campingStove" width="142" height="131"/>
         <image name="devslopesLogo" width="214" height="144"/>
         <image name="hikingBG" width="1346" height="897"/>
         <image name="infoBtn" width="21" height="21"/>
