@@ -8,8 +8,14 @@
 
 import UIKit
 
-
+public var productCellIdentifier = "productCell"
 
 class ProductCell: UICollectionViewCell {
+    
+    @IBOutlet weak var productImage: UIImageView!
+    
+    func updateViews(product: Product) {
+        productImage.image = UIImage(named: product.imageName)
+    }
     
 }

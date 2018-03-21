@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B265A1B2062F7730054A402 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B265A1A2062F7730054A402 /* Product.swift */; };
+		7B265A1D2062F8400054A402 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B265A1C2062F8400054A402 /* Category.swift */; };
 		7B28CD1B205C239700456F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD1A205C239700456F29 /* AppDelegate.swift */; };
 		7B28CD1D205C239700456F29 /* AllCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD1C205C239700456F29 /* AllCategoriesVC.swift */; };
 		7B28CD20205C239700456F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B28CD1E205C239700456F29 /* Main.storyboard */; };
@@ -17,11 +19,12 @@
 		7B28CD34205C364200456F29 /* AppInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD33205C364200456F29 /* AppInfoVC.swift */; };
 		7B28CD36205C3AB200456F29 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B28CD35205C3AB200456F29 /* RoundedButton.swift */; };
 		7B2D7AA9205EDFC100AB515F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D7AA8205EDFC100AB515F /* ProductCell.swift */; };
-		7BA230EA205C4A0D00C5EA94 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA230E9205C4A0D00C5EA94 /* Category.swift */; };
 		7BA230EC205C4AB300C5EA94 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA230EB205C4AB300C5EA94 /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B265A1A2062F7730054A402 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		7B265A1C2062F8400054A402 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		7B28CD17205C239700456F29 /* TRAILguide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRAILguide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B28CD1A205C239700456F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B28CD1C205C239700456F29 /* AllCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCategoriesVC.swift; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		7B28CD33205C364200456F29 /* AppInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoVC.swift; sourceTree = "<group>"; };
 		7B28CD35205C3AB200456F29 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		7B2D7AA8205EDFC100AB515F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
-		7BA230E9205C4A0D00C5EA94 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		7BA230EB205C4AB300C5EA94 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,8 @@
 		7B28CD2E205C2D0700456F29 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7B265A1A2062F7730054A402 /* Product.swift */,
+				7B265A1C2062F8400054A402 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,7 +116,6 @@
 		7BA230E8205C49E700C5EA94 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				7BA230E9205C4A0D00C5EA94 /* Category.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -190,14 +193,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B28CD34205C364200456F29 /* AppInfoVC.swift in Sources */,
+				7B265A1D2062F8400054A402 /* Category.swift in Sources */,
 				7B28CD36205C3AB200456F29 /* RoundedButton.swift in Sources */,
 				7B28CD1D205C239700456F29 /* AllCategoriesVC.swift in Sources */,
 				7BA230EC205C4AB300C5EA94 /* CategoryCell.swift in Sources */,
 				7B28CD32205C360200456F29 /* DetailVC.swift in Sources */,
 				7B28CD30205C35D700456F29 /* SpecificCategoryVC.swift in Sources */,
 				7B2D7AA9205EDFC100AB515F /* ProductCell.swift in Sources */,
+				7B265A1B2062F7730054A402 /* Product.swift in Sources */,
 				7B28CD1B205C239700456F29 /* AppDelegate.swift in Sources */,
-				7BA230EA205C4A0D00C5EA94 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

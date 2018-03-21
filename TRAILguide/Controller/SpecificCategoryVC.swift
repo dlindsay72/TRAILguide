@@ -8,12 +8,11 @@
 
 import UIKit
 
-public var productCellIdentifier = "productCell"
-
 class SpecificCategoryVC: UIViewController {
     
-    @IBOutlet weak var categoryLbl: UILabel!
-    @IBOutlet weak var backgroundImage: UIImageView!
+    
+    @IBOutlet weak var specificCategoryLbl: UILabel!
+    @IBOutlet weak var categoryBackgroundImage: UIImageView!
     @IBOutlet weak var categoryCollectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -22,5 +21,8 @@ class SpecificCategoryVC: UIViewController {
         
     }
 
-
+    @IBAction func backBtnWasPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
